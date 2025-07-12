@@ -26,7 +26,7 @@ MODEL_SOURCES = {
 def download_model_if_missing(model_name, gdrive_id):
     model_path = os.path.join(MODEL_DIR, f"{model_name}.pth")
     if not os.path.exists(model_path):
-        print(f"Downloading model: {model_name}")
+    raise FileNotFoundError(f"Model file not found after download: {model_path}")
         url = f"https://drive.google.com/uc?id={gdrive_id}"
         gdown.download(url, model_path, quiet=False)
     return model_path
