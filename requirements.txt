@@ -1,0 +1,6 @@
+flask
+torch
+fairseq
+scipy
+pydub
+rvc_python
