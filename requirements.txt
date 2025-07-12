@@ -8,3 +8,4 @@ scipy
 pydub
 soundfile
 rvc_python
+gdown
