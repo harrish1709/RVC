@@ -1,5 +1,4 @@
 Flask
-gunicorn
 torch
 fairseq==0.12.2
 hydra-core==1.0.7
