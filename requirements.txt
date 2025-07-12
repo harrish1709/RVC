@@ -4,3 +4,4 @@ fairseq
 scipy
 pydub
 rvc_python
+gunicorn
